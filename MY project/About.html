@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="WORK.css">
+    <style>
+        .parent{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            border: solid black;
+            height: 200px; 
+            padding: 2px;
+        }
+        .child{
+            border: 2px solid black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .child> nav>a {
+            display: block;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body style="background-color: yellowgreen;">
+    <header style="background-color: rgb(0, 204, 255);"> 
+        <img src="Project logo.png" height=125PX width=125PX alt="Project logo" style="margin-right: auto;margin-left: auto;display: block;padding: 5px;">
+    <nav style="text-align: center;">
+        <a href="Home.html">HOME</a>
+        <a href="About.html"> ABOUT</a> 
+        <a href="Contact.html">CONTACT</a>
+        <a href="Services.html">SERVICES</a>
+    </nav>
+
+</header>
+<section class="body">
+<img src="Codemap_Home.jpeg" style="height: 10%; width: 80%; margin-left: auto; margin-right: auto; display: block;" alt="Home page image">
+<h1  class="dent">We are learning to create a website</h1>
+<p> We are loving what we're creating</p>
+</section>
+
+<footer>
+<div class="parent">
+
+    <div class="child"> <img src="Project logo.png" alt=" logo to display" height="150px" width="150px" style="margin-left: auto; margin-right: auto;"></div>
+    <div class="child" > <nav> <a href="Home.html">HOME</a>
+        <a href="About.html"> ABOUT</a> 
+        <a href="Contact.html">CONTACT</a>
+        <a href="Services.html">SERVICES</a>
+    </nav> 
+     </div> 
+    <div class="child"></div>
+
+</div>
+ 
+</footer> 
+</body>
+</html>
